@@ -132,7 +132,7 @@ export default function HaldenSite() {
             <div className="hero-copy reveal">
               <p className="eyebrow">Heating + cooling for the Valley</p>
               <h1>Comfort, <em>without the</em> runaround.</h1>
-              <p className="hero-deck">Same-day heating and cooling service across Phoenix, Scottsdale, and the East Valley—with clear options before any work begins.</p>
+              <p className="hero-deck">Same-day heating and cooling service across Phoenix, Scottsdale, and the East Valley, with clear options before any work begins.</p>
               <div className="hero-actions"><a className="button" href="#contact">Book a service visit <Icon name="arrow" size={20} /></a><a className="button-secondary" href={TEL}>Call {PHONE}</a></div>
               <p className="availability"><span /> Appointments available this week</p>
             </div>
@@ -168,7 +168,7 @@ export default function HaldenSite() {
             <div className="services-heading reveal"><p className="eyebrow">Residential services</p><h2 id="services-title">Everything your home needs <em>to feel right.</em></h2></div>
             <div className="service-list">
               <article className="service-row service-feature reveal"><div className="service-number">01</div><div className="service-icon"><Icon name="repair" size={34} /></div><div><h3>Same-day AC repair</h3><p>Diagnosis and repair for weak airflow, warm air, unusual noises, short cycling, and systems that stop altogether.</p><a href="#contact">Book a repair <Icon name="arrow" size={18} /></a></div></article>
-              <article className="service-row reveal"><div className="service-number">02</div><div className="service-icon"><Icon name="replace" size={34} /></div><div><h3>System replacement</h3><p>Straightforward replacement guidance based on your home, priorities, and budget—not the most expensive equipment on the page.</p><a href="#contact">Plan a replacement <Icon name="arrow" size={18} /></a></div></article>
+              <article className="service-row reveal"><div className="service-number">02</div><div className="service-icon"><Icon name="replace" size={34} /></div><div><h3>System replacement</h3><p>Straightforward replacement guidance based on your home, priorities, and budget, not the most expensive equipment on the page.</p><a href="#contact">Plan a replacement <Icon name="arrow" size={18} /></a></div></article>
               <article className="service-row reveal"><div className="service-number">03</div><div className="service-icon"><Icon name="care" size={34} /></div><div><h3>Seasonal maintenance</h3><p>Thorough tune-ups designed to catch wear early and keep the system performing through desert heat.</p><a href="#care">See maintenance options <Icon name="arrow" size={18} /></a></div></article>
               <article className="service-row reveal"><div className="service-number">04</div><div className="service-icon"><Icon name="quality" size={34} /></div><div><h3>Indoor air quality</h3><p>Filtration, humidity, ventilation, and air-quality improvements selected around the way your household actually lives.</p><a href="#contact">Talk through your home <Icon name="arrow" size={18} /></a></div></article>
             </div>

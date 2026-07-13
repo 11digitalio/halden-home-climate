@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Comfort, without the runaround.",
     description: "Heating and cooling service for the Phoenix Valley, with clear options before any work begins.",
     type: "website",
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Halden Home Climate — comfort, without the runaround" }],
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Halden Home Climate: comfort, without the runaround" }],
   },
   twitter: {
     card: "summary_large_image",
