@@ -38,7 +38,13 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <a className="sitehouse-return" href="https://www.sitehouse.co/#work" aria-label="Back to the SiteHouse portfolio">
+          <span aria-hidden="true">←</span>
+          <span>Back to SiteHouse</span>
+        </a>
+        {children}
+      </body>
     </html>
   );
 }

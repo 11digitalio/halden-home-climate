@@ -18,6 +18,8 @@ test("server-renders the complete Halden concept", async () => {
   assert.match(html, /Comfort, without the runaround/);
   assert.match(html, /What changed<br\/>at home/);
   assert.match(html, /Tell us what your home is doing/);
+  assert.match(html, /Back to SiteHouse/);
+  assert.match(html, /https:\/\/www\.sitehouse\.co\/#work/);
   assert.match(html, /noindex/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton|LocalBusiness/);
 });
